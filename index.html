@@ -2,92 +2,43 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Component Library</title>
+    <title>Chandana Shilpa</title>
+    <link href="/styles.css" rel="stylesheet" />
   </head>
-
   <body>
-    <h1>Chandana's component library</h1>
-    <hr />
-    <h2>@typography</h2>
-    <h1>h1 heading</h1>
-    <h2 id="testing">h2 heading</h2>
-    <p class="container">
-      This is normal text. This is free flowing and will wrap at the end like a
-      paragraph
-    </p>
-    <small>This is relatively smaller text</small>
-    <hr />
-    <h2>@container</h2>
-    <h3>fluid container</h3>
-    <div>This is a fluid container and it will go till end of the page</div>
-    <h3>center container</h3>
-    <div>This is a center container and it will go till specified width</div>
-    <hr />
-    <h3>@links</h3>
-    <a href="#">Primary Link</a>
-    <a href="#">Secondary Link</a>
-    <hr />
-    <h2>@lists</h2>
-    <h3>unordered list</h3>
-    <ul>
-      <li>item one</li>
-      <li>item two</li>
-      <li>item three</li>
-    </ul>
-    <h3>unordered inline list</h3>
-    <ul>
-      <li>item one</li>
-      <li>item two</li>
-      <li>item three</li>
-    </ul>
-    <h3>ordered reverse list</h3>
-    <ol>
-      <li>item one</li>
-      <li>item two</li>
-      <li>item three</li>
-    </ol>
-    <hr />
-    <h2>@nav</h2>
-    <nav>
-      <div>IAmbrand</div>
-      <ul>
-        <li>
-          <a href="#">home</a>
+    <nav class="navigation container">
+      <div class="nav-brand">IAmbrand</div>
+      <ul class="list-non-bullet list-nav-pills">
+        <li class="list-item-inline">
+          <a href="#" class="link link-active">home</a>
         </li>
-        <li>
-          <a href="#">products</a>
+        <li class="list-item-inline">
+          <a href="projects.html" class="link">projects</a>
         </li>
-        <li>
-          <a href="#">about</a>
+        <li class="list-item-inline">
+          <a href="blogs.html" class="link">blogs</a>
         </li>
       </ul>
     </nav>
-    <hr />
-    <h2>@header</h2>
-    <header>
-      <img src="./images/hero.svg" />
-      <h1>text inside header</h1>
+    <header class="hero">
+      <img class="hero-img" src="./images/hero.svg" />
+      <h1 class="hero-heading">Chandana Shilpa</h1>
     </header>
-    <hr />
-    <h2>@section</h2>
-    <section>
-      <h3>white section</h3>
-      <p>this will have a white background</p>
+    <section class="section off-white">
+      <h3>Technologies</h3>
+      <p>I am familiar with HTML, CSS3, JavaScript, ReactJS and Web Hosting</p>
     </section>
-    <section>
-      <h3>off white section</h3>
-      <p>this will have a gray background</p>
+    <section class="section">
+      <h3>Projects</h3>
+      <p>You can see my projects hosted online</p>
+      <a class="link link-primary" href="#">See Projects</a>
     </section>
-    <hr />
-    <h2>@footer</h2>
-    <footer>
-      <div>text inside footer</div>
-      <ul>
-        <li>socialone</li>
-        <li>socialtwo</li>
-        <li>socialthree</li>
-      </ul>
-    </footer>
+    <section class="section off-white">
+      <h3>Blogs</h3>
+      <p>Find my journey of learning</p>
+      <a class="link link-secondary" href="#">Read Blogs</a>
+    </section>
   </body>
 </html>
