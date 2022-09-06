@@ -30,7 +30,11 @@ body {
   background-color: var(--primary-color);
   padding: 0.5rem 1rem;
   color: #fff;
-  margin-right: 0.5rem;
+  margin-right: 1rem;
+}
+.home .link-primary,
+.blogs .link-primary {
+  margin-right: 0;
 }
 .link-secondary {
   background-color: #fff;
@@ -51,8 +55,13 @@ body {
 .navigation {
   background-color: var(--primary-color);
   color: #fff;
-  padding: 2rem;
+  font-size: large;
+  padding: 1rem;
+  padding-top: 2.8rem;
   border-bottom-left-radius: 1.5rem;
+}
+.navigation .link {
+  padding: 0 0.8rem;
 }
 .nav-brand {
   font-weight: bold;
@@ -71,13 +80,13 @@ body {
   text-align: center;
 }
 .hero-img {
-  width: 350px;
+  width: 400px;
   display: block;
   margin: auto;
   margin-top: 1rem;
 }
 .hero-heading {
-  color: var(--dark-gray);
+  color: var(--primary-color);
   padding-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -94,7 +103,7 @@ body {
 }
 footer {
   background-color: var(--primary-color);
-  padding: 2rem 1rem;
+  padding: 1.5rem 2rem;
   text-align: center;
   color: white;
   border-top-right-radius: 1.5rem;
@@ -104,4 +113,34 @@ footer .link {
 }
 footer ul {
   padding-inline-start: 0px;
+}
+.footer {
+  margin-top: 2rem;
+}
+.navigation,
+.section,
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75%;
+}
+.section {
+  border-radius: 1rem;
+}
+.description {
+  text-align: center;
+}
+.home,
+.projects,
+.blogs {
+  text-align: center;
+}
+.highlight {
+  color: var(--primary-color);
+}
+.read-blogs,
+.see-code {
+  font-size: 2rem;
+  color: var(--dark-gray);
+  margin: 4rem 0;
 }
